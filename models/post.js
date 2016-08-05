@@ -1,0 +1,3 @@
+'use scrict'
+
+module.exports = {}

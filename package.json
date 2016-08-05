@@ -1,0 +1,18 @@
+{
+  "name": "example-lamb-wrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Conceptho <conceptho.com>",
+  "license": "ISC",
+  "dependencies": {
+    "lamb-wrap": "^0.1.1",
+    "mongoose": "^4.5.8"
+  },
+  "devDependencies": {
+    "docker-lambda": "^0.9.1"
+  }
+}
