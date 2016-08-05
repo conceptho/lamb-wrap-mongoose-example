@@ -1,0 +1,1 @@
+# lamb-wrap-mongoose-example
