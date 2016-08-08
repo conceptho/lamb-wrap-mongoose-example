@@ -1,6 +1,6 @@
 'use strict'
 
-const idendity = Object.assign({}, require('./user'), {
+const idendity = Object.assign({}, require('./User'), {
   id: 'aHashedAccountId',
   name: 'Luciano Pellacani França',
   email: 'lucianopf@outlook.com',

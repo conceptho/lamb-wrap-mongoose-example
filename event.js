@@ -11,7 +11,7 @@ module.exports = {
   queryParams: {
     id: 'aHashedAccountId'
   },
-  method: 'PUT',
+  method: 'POST',
   resourcePath: '/User',
   source: 'aws.apiGateway'
 }
