@@ -2,15 +2,13 @@
 
 module.exports = {
   body: {
-    name: 'Luciano França'
+    name: 'Luciano França',
+    email: 'lucianopf@outlook.com',
+    password: 'toTestando'
   },
-  headers: {
-    apiKey: 'aHashedSecretKey'
-  },
+  headers: {},
   pathParams: {},
-  queryParams: {
-    id: 'aHashedAccountId'
-  },
+  queryParams: {},
   method: 'POST',
   resourcePath: '/User',
   source: 'aws.apiGateway'

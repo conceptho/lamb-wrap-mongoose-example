@@ -6,6 +6,8 @@ const userModel = require('./models/User')
 
 var body = (action, identity, model) => {
   model.name = action.event.body.name
+  model.email = action.event.body.email
+  model.password = action.event.body.password
   return model.save()
 }
 

@@ -9,7 +9,10 @@ mongoose.connect(connetcionUrl)
 
 var userSchema = new Schema({
   name: String,
-  email: String,
+  email: {
+    type: String,
+    unique: true
+  },
   apiKey: String,
   jwtToken: String,
   password: String,
