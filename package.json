@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "lamb-wrap": "*",
-    "mongoose": "^4.5.8"
+    "mongoose": "^4.5.8",
+    "password-hash": "^1.2.2"
   },
   "devDependencies": {
     "docker-lambda": "^0.9.1"

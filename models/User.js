@@ -6,13 +6,13 @@ const Schema = mongoose.Schema
 
 const connetcionUrl = 'mongodb://example:example@ds145385.mlab.com:45385/example-lamb-wraper'
 mongoose.connect(connetcionUrl)
+  .then((res) => {
+    console.log(res)
+  })
 
 var userSchema = new Schema({
   name: String,
-  email: {
-    type: String,
-    unique: true
-  },
+  email: String,
   apiKey: String,
   jwtToken: String,
   password: String,
@@ -25,8 +25,10 @@ userSchema.statics.attributeRules = function () {
     name: 'public',
     email: (identity, model) => 'public',
     apiKey: (identity, model) => 'protected',
-    created_at: 'protected',
+    createdAt: 'protected',
+    updatedAt: 'protected',
     password: 'private',
+    plainPassword: 'public',
     logins: 'private'
   }
 }

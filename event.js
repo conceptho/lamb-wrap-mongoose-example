@@ -4,7 +4,7 @@ module.exports = {
   body: {
     name: 'Luciano França',
     email: 'lucianopf@outlook.com',
-    password: 'toTestando'
+    plainPassword: 'toTestando'
   },
   headers: {},
   pathParams: {},
